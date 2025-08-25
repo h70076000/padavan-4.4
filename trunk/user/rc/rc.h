@@ -528,6 +528,11 @@ void stop_ttyd(void);
 void start_ttyd(void);
 void restart_ttyd(void);
 #endif
+#if defined(APP_ZEROTIER)
+void stop_zerotier(void);
+void start_zerotier(void);
+void restart_zerotier(void);
+#endif
 #if defined(APP_SHADOWSOCKS)
 void stop_ss(void);
 void start_ss(void);
