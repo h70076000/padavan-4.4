@@ -537,6 +537,15 @@ struct nvram_pair router_defaults[] = {
 	{ "ttyd_port", "7681" },
 #endif
 
+#if defined(APP_ZEROTIER)
+	/*Zerotier*/
+	{ "zerotier_enable", "0" },
+	{ "zerotier_id", "" },
+	{ "zerotier_nat", "0" },
+	{ "zerotier_secret", "" },
+	{ "zero_staticnum_x", "0" },
+#endif
+
 #if defined(APP_VLMCSD)
 	/* vlmcsd */
 	{ "vlmcsd_enable", "0" },
