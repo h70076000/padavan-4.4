@@ -61,6 +61,13 @@
 			{0,0,0,0}
 		};
 
+	struct variable variables_ZeroConf_ZeroList[] = {
+			{"zero_enable_x", "24", NULL, FALSE},
+			{"zero_ip_x", "24", NULL, FALSE},
+			{"zero_route_x", "24", NULL, FALSE},
+			{0,0,0,0}
+		};
+
 	struct variable variables_FirewallConfig_MFList[] = {
 			{"macfilter_list_x", "20", NULL, FALSE},
 			{"macfilter_time_x", "10", NULL, FALSE},
